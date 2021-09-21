@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+html,body{
+    height: 100vh;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin-bottom: 50px;
+}
+
+.speed_btn{
+    border: none;
+    background-color: rgb(255, 242, 127);
+    padding: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius:25px;
+}
+
+.progress_bar{
+    height: 12px;
+    width:300px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    background-color: rgb(217, 233, 231);
+}
+.progress_bar .progress{
+    height: 100%;
+    width: 0%;
+    border-radius: 5px;
+    background-color: rgb(240, 220, 42);
+}
+
+.speed_text{
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    color: black;
+    transition: width .20;
+}
